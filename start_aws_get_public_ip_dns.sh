@@ -16,9 +16,9 @@ instance_zone=($3)
 /usr/bin/expect <<-EOF
 spawn aws configure
 expect "AWS Access Key ID"
-send "AKIAIJK34AQ34VUEKAAA\r"
+send "XXX\r"
 expect "AWS Secret Access Key"
-send "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\r"
+send "XXX\r"
 expect "Default region name"
 send "${instance_zone}\r"
 expect "Default output format"
